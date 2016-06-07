@@ -1,17 +1,19 @@
 header {
 	background-color: transparent;
 	height: 80px;
-	border: 1px solid black;
+	width: 90%;
+	/*border: 1px solid black;*/
 	box-sizing: border-box;
 	margin: 0 1.5% 24px 1.5%;
 	/*float: left;*/
-	position: relative;
+	position: fixed;
 }
 nav {
-	position: absolute;
-	top: 25%;
-	margin-top: 12.5px;
+	/*position: absolute;*/
+	/*top: 25%;*/
+	margin-top: 15px;
 	right: 1.5%;
+	float: right;
 	}
 .nav-about {
 	/*padding-left: 1.5%;*/
@@ -27,7 +29,8 @@ li {
 h2 {
 	width: 200px;
 	height: 80px;
-	background-color: gray;
+	/*background-color: gray;*/
+	float: left;
 }
 div {
 	height: 600px;
@@ -35,7 +38,8 @@ div {
 	background-color: pink;
 }
 aside {
-	
+	text-align: center;
+	padding-top: 25%;
 }
 section {
 	height: 500px;
@@ -45,5 +49,13 @@ section {
 }
 footer {
 	background-color: gray;
-	height: 250px;
+	height: 200px;
 }
+#home-slides {
+	background-image: url(../images/sample-1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
