@@ -1,6 +1,6 @@
 $("document").ready(function(){
 	console.log("ready")
-	var photoUrls = ["images/sample-2.jpeg", "images/sample-1.jpg"];
+	var photoUrls = ["images/art-4-final.png", "images/art-2-final.png", "images/art-3-final.png", "images/art-5.jpg"];
 	var counter = 0
 	// photoUrls.forEach(function(item, index){
 		function runIt() {
