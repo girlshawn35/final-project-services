@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+	line-height: 50px;
+}
+
+h1 {
+	font-size: 35px; 
+	text-align: center; 
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
