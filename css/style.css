@@ -301,7 +301,7 @@ p#copyright {
 		width: 600px;
 		height: 400px;
 	}
-	section #contact-us #questions-form {
+	#contact-us #questions-form {
 		padding-left: 75px;
 	}
 
@@ -331,7 +331,24 @@ p#copyright {
 	}
 
 	/* ABOUT SECTION */
+	#about-us {
+		width: 100%;
+		height: 600px;
+		padding-left: 5%;
+		height: 650px;
+	}
+	#about-us-image {
+	height: 179px;
+	width: 250px;
+	position: absolute;
+	margin: 0px;
+	margin-bottom: 25px;
+	}
+	#about {
+		margin-top: 200px;
+		line-height: 15px;
 
+	}
 
 	/* CONTACT SECTION */
 #contact-us{
@@ -342,6 +359,7 @@ p#copyright {
 	width: 45%;
 	float: left;*/
 	width: 100%;
+	height: auto;
 }
 img#contact-us-map {
 	height: 275px;
