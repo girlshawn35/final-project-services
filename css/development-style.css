@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	line-height: 35px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 35px; 
+	text-align: center; 
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 22px;
+	width: 400px;
+	text-align: left;
+}
+#top-image {
+	/*height: 400px;*/
+	/*width: 400px;*/
+	width: 50%;
+	margin-left: 50px;
+	float: left;
+	margin-top: 25px;
+}
+#text  {
+	float: right;
+	margin-right: 75px;
+}
+
+#logo-2 {
+	margin-top: 25px; 
+	width: 177px;
+	height: 55.5px;
+
+}
