@@ -15,6 +15,19 @@
   height: 0;
 }
 
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
