@@ -15,5 +15,21 @@ $("document").ready(function(){
 		// })
 	})
 	}
+
+	// function click() {
+	// 	$("left-button").onClick(){
+	// 		$()
+	// 	}
+	// }
 	runIt();
+
+	$(window).scroll (function () {
+		var header = $(this).scrollTop();
+		if (header >= 550) {
+			$(".header").addClass("scroll")
+		}
+		else {
+			$(".header").removeClass("scroll")
+		}
+	})
 })

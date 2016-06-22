@@ -42,6 +42,12 @@ header {
 	margin: 0 1.5% 24px 1.5%;
 	/*float: left;*/
 	position: fixed;
+	z-index:200;
+}
+header.scroll {
+	background-color: white;
+	height: 50px;
+
 }
 img {
 	margin-top: 10px;
@@ -106,6 +112,7 @@ aside#home-main-image {
 }
 section {
 	height: 500px;
+	margin-top: 25px;
 	/*margin: 0px 1.5% 0 1.5%;*/
 	padding: 50px;
 	/*border: 1px solid black; 	*/
@@ -145,13 +152,15 @@ aside.services {
 	text-align: center;
 	padding: 0px;
 }
-section#services {
+/*div#services {
 	padding-top: 40px;
-}
+	margin-top: 25px;
+}*/
 img#services-images {
 	width: 200px;
 	height: 200px;
 	padding-bottom: 20px;
+	margin-top: 75px;
 }
 #design {
 	margin-left: 75px;
@@ -193,7 +202,7 @@ aside.section-text {
 	text-align: left;
 	padding-left: 75px;
 	padding-right: 75px;
-	padding-top: 40px;
+	padding-top: 50px;
 	width: 45%;
 	float: left;
 }
@@ -212,7 +221,7 @@ img#contact-us-map {
 	width: 45%;
 	float: right;
 	position: relative;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 
 /* FORM STYLING */
@@ -311,13 +320,14 @@ p#copyright {
 
 	}
 	aside.services {
-		width: 50%;
+		/*width: 50%;*/
 		/*position: relative;*/
-		margin: 0px 25px 0px 100px;
+/*		margin: 0px 25px 0px 100px;
 		text-align: left;
 		padding-left: 100px;
 		float: left;
-	}
+		clear: left;
+	}*/
 	#services-images{
 		float: left;
 		position: absolute;
