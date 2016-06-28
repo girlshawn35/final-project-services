@@ -39,3 +39,14 @@ p {
 	width: 177px;
 	height: 55.5px;
 }
+
+@media (max-width: 800px, min-width: 400px) {
+	body {
+		width: 80%;
+	}
+	
+	img {
+		
+	}
+
+}

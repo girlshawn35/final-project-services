@@ -166,6 +166,7 @@ button {
 }
 
 /*services section*/
+
 aside.services {
 	width: 250px;
 	height: 50px;
@@ -175,6 +176,7 @@ aside.services {
 	/*position: relative;*/
 	text-align: center;
 	padding: 0px;
+	position: relative;
 }
 /*div#services {
 	padding-top: 40px;
@@ -317,7 +319,7 @@ p#copyright {
 
 /* ADDITIONAL STYLING */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
 	body {
 		font-size: 14px;
@@ -341,7 +343,7 @@ p#copyright {
 
 	div#home-slides {
 		background-position: left;
-		width: 600px;
+		width: 100%;
 		height: 400px;
 	}
 	#contact-us #questions-form {
@@ -349,29 +351,44 @@ p#copyright {
 	}
 
 	/* SERVICES SECTION */
-	section#services {
+	div#services {
 		width: 100%;
-		/*position: absolute;*/
+		padding-top: 50px;
 
 	}
 	aside.services {
 		/*width: 50%;*/
 		/*position: relative;*/
-/*		margin: 0px 25px 0px 100px;
+		margin: 40px 25px 0px 100px;
 		text-align: left;
 		padding-left: 100px;
-		float: left;
-		clear: left;
-	}*/
-	#services-images{
-		float: left;
+/*		float: left;
+		clear: left;*/
+		width: 80%;
+		padding-top: 50px;
+	}
+	#design {
 		position: absolute;
+		margin-top: 50px;
+		margin-left: 50px;
+		padding-left: 
+	}
+	#services-images{
+		display: none;
 	}
 	#development {
-		
+		position: absolute;
+		margin-top: 275px;
+		margin-left: 50px;
 	}
 	#marketing {
-		
+		position: absolute;
+		margin-top: 400px;
+		margin-left: 50px;
+	}
+
+	p.services-text {
+		/*display: none;*/
 	}
 
 	/* ABOUT SECTION */
