@@ -424,8 +424,8 @@ section#contact-us{
 	float: left;*/
 	width: 100%;
 	height: auto;
-	padding-left: 150px;
-	padding-right: 150px;
+/*	padding-left: 150px;
+	padding-right: 150px;*/
 }
 img#contact-us-map {
 	height: 275px;
