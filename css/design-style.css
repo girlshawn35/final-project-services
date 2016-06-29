@@ -40,6 +40,7 @@ p {
 	height: 55.5px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 800px) {
 	body {
 		line-height: 25px;
@@ -69,3 +70,5 @@ p {
 	}
 
 }
+=======
+>>>>>>> master
