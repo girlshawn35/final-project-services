@@ -9,7 +9,6 @@ body {
 h1 {
 	font-size: 35px; 
 	text-align: center; 
-	/*font-family: 'Josefin Sans', sans-serif;*/
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-weight: bold;
@@ -21,7 +20,7 @@ p {
 	text-align: left;
 }
 #top-image {
-	/*height: 400px;*/
+	height: 400px;
 	/*width: 400px;*/
 	width: 50%;
 	margin-left: 50px;
@@ -37,7 +36,6 @@ p {
 	margin-top: 25px; 
 	width: 177px;
 	height: 55.5px;
-
 }
 
 @media (max-width: 800px) {
@@ -60,10 +58,11 @@ p {
 		margin-left: 0px;
 	}
 	#logo-2 {
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 		position: relative;
-		width: 25%;
-		height: 25%;
+/*		width: 25%;
+		height: 25%;*/
+
 	}
 	#text {
 		margin-top: 250px;

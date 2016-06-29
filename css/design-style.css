@@ -4,13 +4,11 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 22px;
 	margin-top: 25px;
-	/*background-color: #F5F5F5;*/
 }
 
 h1 {
 	font-size: 35px; 
 	text-align: center; 
-	/*font-family: 'Josefin Sans', sans-serif;*/
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-weight: bold;
@@ -60,7 +58,7 @@ p {
 		margin-left: 0px;
 	}
 	#logo-2 {
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 		position: relative;
 		width: 25%;
 		height: 25%;
