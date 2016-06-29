@@ -40,32 +40,3 @@ p {
 
 }
 
-@media (max-width: 800px) {
-	body {
-		line-height: 25px;
-		font-size: 12px;
-		width: 80%;
-		margin-left: 20px;
-		margin-right: 0px;
-	}
-	
-	#top-image {
-		height:200px;
-		width: 200px;
-		position: absolute;
-		margin-top: 25px;
-		margin-left: 0px;
-	}
-	#logo-2 {
-		margin-top: 50px;
-		position: relative;
-	}
-	#text {
-		margin-top: 250px;
-	}
-
-	p {
-		text-align: center;
-	}
-
-}
